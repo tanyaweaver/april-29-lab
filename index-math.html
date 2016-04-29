@@ -7,7 +7,8 @@
 
 <body>
   <form id="submission-form">
-    <legend>Conversion Form</legend>
+    <fieldset>
+    <h2>Conversion Form</h2>
 
       <label for="input1">Input</label>
       <input id="user-input" type="text" name="input1" size=10></input>
@@ -22,13 +23,20 @@
 
         <button type="submit">Convert</button>
 
-        <label for="output">Output</label>
-        <div id="user-output"></div>
-</form>
-        <button id="clear">Clear Request History</button>
+    </fieldset>
+  </form>
 
-        <div id="results">Table of all requests
-        </div>
+  <h2>Output:</h2>
+  <div id="user-output"></div>
+
+
+  <button id="clear">Clear Request History</button>
+
+  <div id="results">
+    <h2>Table of all requests:</h2>
+  </div>
+
+  <a href="nws.html">Link to the other html</a>
 
 </body>
 <script src="js/app-math.js"></script>
