@@ -4,4 +4,22 @@
   border-style: solid;
   border-width: thin;
   height: 50px;
+  background-color: #C5CAE9;
 }
+
+body{
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #F06292;
+}
+
+input {
+  background-color: #C5CAE9;
+}
+ #results {
+   color: #33691E;
+ }
