@@ -6,3 +6,5 @@ Driver - Tatiana, Navigator - Jam
 
 ##NWS part:
 Driver - Vien, Navigator - Jeremy
+
+We did awesome!
