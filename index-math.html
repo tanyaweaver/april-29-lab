@@ -2,28 +2,31 @@
 <html>
 <head>
   <title>units-conversion</title>
-  <link rel="stylesheet" href="css/style-math.css type="text/css/>
+  <link rel="stylesheet" href="css/style-math.css" type="text/css"/>
 </head>
 
 <body>
   <form id="submission-form">
     <legend>Conversion Form</legend>
 
-      <label for="input">Input</label>
-      <input type="text" name="input" size=100></input>
+      <label for="input1">Input</label>
+      <input id="user-input" type="text" name="input1" size=100></input>
 
-        <select>Units
+        <select id="user-select">Units
           <option value="inch-cm">Inches to cm</option>
-          <option value="oz-ml">Fluid ounces to ml</option>
-          <option value="mi to km">Miles to km</option>
-          <option value="lb to kg">lb to kg</option>
+          <option value="fl.oz-ml">Fluid ounces to ml</option>
+          <option value="mi-km">Miles to km</option>
+          <option value="lb-kg">lb to kg</option>
           <option value="shit-tonn">Standard shit-tonn to metrics shit-tonn</option>
         </select>
 
         <button type="submit">Convert</button>
 
         <label for="output">Output</label>
-        <div id="output"></div>
+        <div id="user-output"></div>
+
+        <div id="results">
+        </div>  
 
 </body>
 <script src="js/app-math.js"></script>
