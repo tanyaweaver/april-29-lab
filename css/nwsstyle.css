@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nws {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*flex-direction: row;*/
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+
+.nav-bar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+  background-color: #ddd;
+  border: 1px solid #bbb;
+  height: 50px;
+
+}
+
+.nav-button {
+  margin-right: 25px;
+  color: #888;
+  font-size: 14px;
+}
+
+.home-button {
+  margin-left: 30px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.media {
+  margin-left: 10px;
+}
+
+.location-text, .location-link {
+  padding: 0;
+  margin: 0;
+}
+
+.location-link {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.location-text {
+  margin-top: 10px;
+}
+
+.nav-button {
+  margin-left: 10px;
+}
+
+.search-query-area {
+
+}
+
+.banner {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.head-line {
+  margin: 0;
+  padding: 0;
+}
+
+.head-line-header, .head-line-text, .read-more-link {
+  margin: 0;
+  padding: 0;
+}
+
+.head-line-text {
+  margin-top: 5px;
+}
+
+.main-content {
+  border: 1px solid #bbb;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.current-conditions {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content:flex-start;
+  background-color: #ddd;
+  /*border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;*/
+  /*border-top: 1px solid #bbb;*/
+}
+
+.current-conditions-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 10px;
+  background-color: #ddd;
+  border-bottom: 1px solid #bbb;
+}
+
+.current-conditions-at, .current-location, .coordinates {
+  margin: 0;
+  padding: 0;
+}
+
+.current-location {
+  font-weight: bold;
+  font-size: 18px;
+  color: darkblue;
+
+}
+
+.daily-content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+}
+
+.daily-visual {
+  display: flex;
+  flex-direction: row;
+  /*max-height: 86px;*/
+  margin-left: 10px;
+}
+
+.daily-temp {
+  margin-left: 10px;
+}
+
+.few-clouds, .fortyfive-degreeF, .seven-degreeC{
+  margin: 0;
+  padding: 0;
+}
+
+.fortyfive-degreeF {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.seven-degreeC {
+  font-size: 24px;
+}
+
+.daily-stats {
+  display: flex;
+  flex-direction: row;
+  margin-right: 250px;}
+
+.daily-stats-labels {
+  text-align: right;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.daily-stats-values {
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: left;
+  justify-content: flex-start;
+  line-height: 17px;
+}
+
+.more-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 175px;
+  font-size: 14px;
+}
+
+.extended-forecast {
+  border: 1px solid #bbb;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.monday {
+  justify-content: center;
+  align-items: center;
+}
+
+.extended-forecast-label {
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+}
+
+.extended-forecast-header {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #ddd;
+  border-bottom: 1px solid #bbb;
+
+}
+
+.extended-forecast-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.extended-forecast-area {
+  font-weight: bold;
+  font-size: 18px;
+  color: darkblue;
+}
+
+.extended-forecast-description {
+  text-align: center;
+  height: 100px;
+  /*font-size: 12px;*/
+}
+
+.extended-forecast-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.extended-forecast-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+.extended-forecast-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.extended-forecast-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extended-forecast-high-text {
+  color: orangered;
+}
+
+.extended-forecast-low-text {
+  color: deepskyblue;
+}
+
+.extended-forecast-bottom-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
