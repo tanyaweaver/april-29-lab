@@ -2,6 +2,7 @@ var submissionForm = document.getElementById('submission-form');
 var unitsArray = [];
 var userOutput = document.getElementById('user-output');
 var resultsDisplay = document.getElementById('results');
+var clearRequests = document.getElementById('clear');
 
 var results = [];
 
@@ -42,8 +43,13 @@ function handleSubmit(event){
       results.push(userOutput.textContent);
     }
   }
+  console.log('render ');
   renderResults();
   userInput = null;
 }
 
 submissionForm.addEventListener('submit', handleSubmit);
+clearRequests.addEventListener('click', function(){
+  resultsDisplay.textContent = ' ';
+  results = [];
+});
