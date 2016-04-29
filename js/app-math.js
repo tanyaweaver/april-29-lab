@@ -41,7 +41,7 @@ function handleSubmit(event){
     }
   }
   renderResults();
-  userInput = null;
+  event.target.input1.value = null;
 }
 
 submissionForm.addEventListener('submit', handleSubmit);
